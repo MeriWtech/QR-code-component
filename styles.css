@@ -1,0 +1,45 @@
+.card, .info, body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card, img {
+    border-radius: 20px;
+}
+
+.card {
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.info {
+    text-align: center;
+}
+
+b {
+    font-size: 19px;
+}
+
+img {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+body {
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(212, 45%, 89%);
+    max-width: 1440px;
+    min-width: 375px;
+    height: 613px;
+    margin: 0;
+    font-family: outfit, sans-serif;
+}
+
+
